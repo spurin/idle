@@ -98,4 +98,4 @@ For more details, see http://unlicense.org
 
 ## Thanks! 🙏
 
-[@SylvanFranklin](https://github.com/SylvanFranklin)
+[@SylvanFranklin](https://github.com/SylvanFranklin) [@nescohen](https://github.com/nescohen)
