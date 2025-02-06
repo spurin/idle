@@ -90,6 +90,12 @@ The pause container is like Kubernetes' overachiever - handling process reaping,
 
 **idle** isn’t just a container - it’s a philosophy. Sometimes, the best action is no action at all. Whether you’re testing workloads, experimenting with cluster scaling, or just need a pod to sit there and look pretty, **idle** is here to remind you: less is more.
 
+## License
+
+This project is released into the public domain. You are free to use, modify, distribute, or do whatever you want with it, without restriction or attribution.
+
+For more details, see http://unlicense.org
+
 ## Thanks! 🙏
 
 [@SylvanFranklin](https://github.com/SylvanFranklin)
