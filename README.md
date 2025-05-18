@@ -82,7 +82,7 @@ The pause container is like Kubernetes' overachiever - handling process reaping,
 **idle** takes a simpler approach: 
 
 - **Bare minimum**: Uses `nanosleep`, skips `main()`, and avoids runtime dependencies. No glibc, no base OS, just `_start` and chill.  
-- **Smaller size**: Aggressively stripped, statically compiled, and leaner than *registry.k8s.io/pause:3.9*. Compare the two on [explore.ggcr.dev](https://explore.ggcr.dev), choosing a common arch like *arm64* - the difference speaks for itself.  
+- **Smaller size**: Aggressively stripped, statically compiled, and leaner than *registry.k8s.io/pause:3.9*. Compare the two on [oci.dag.dev](https://oci.dag.dev), choosing a common arch like *arm64* - the difference speaks for itself.  
 
 *TL;DR*: **idle** does less, is smaller, and stays true to its name. Why overthink when you can over-idle?  
 
