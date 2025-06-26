@@ -18,13 +18,15 @@ Ever needed a container that does absolutely nothing, but does it really well? M
 
 Prebuilt images are available on Docker Hub as `spurin/idle`. They support the following architectures, so your cluster nodes can all feel included:
 
+- `linux/arm64`
 - `linux/amd64`
-- `linux/386`
-- `linux/arm64/v8`
-- `linux/arm/v7`
-- `linux/arm/v6`
+- `linux/amd64/v2`
+- `linux/riscv64`
 - `linux/ppc64le`
 - `linux/s390x`
+- `linux/386`
+- `linux/arm/v6 `
+- `linux/arm/v7`
 
 ## Run it in Docker
 
