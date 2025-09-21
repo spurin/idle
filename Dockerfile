@@ -20,5 +20,8 @@ FROM scratch
 # Copy the compiled binary from the build stage
 COPY --from=build /app/idle /idle
 
+# Allow idle to be found in PATH
+ENV PATH=/
+
 # Set the binary as the entrypoint
 ENTRYPOINT ["/idle"]
