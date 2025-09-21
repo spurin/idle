@@ -4,5 +4,4 @@ docker buildx create --name build_cross --driver-opt env.BUILDKIT_STEP_LOG_MAX_S
 docker buildx use build_cross
 
 docker buildx build \
-  --platform linux/386,linux/amd64,linux/arm64/v8,linux/arm/v6,linux/arm/v7,linux/ppc64le,linux/s390x \
-  -t spurin/idle:latest . --push
+  --platform linux/arm64,linux/amd64,linux/amd64/v2,linux/riscv64,linux/ppc64le,linux/s390x,linux/386,linux/arm/v7,linux/arm/v6 -t spurin/idle:latest . --push
